@@ -1,0 +1,34 @@
+
+let array = [
+    "Initilizing Hack tool",
+    "Welcome in jass's hack profile",
+    "Connecting to Instagrame",
+    "Connecting to server...",
+    "Connected Successfully....",
+    "Username imjasikamutar",
+    "200k passwords tried.....",
+    "Finally match have found☠️ ..."
+
+];
+
+let container = document.getElementById("text");
+let index  = 0 ;
+
+function showline(){
+    if(index <array.length){
+        container.innerHTML =array[index];
+        console.log(array[index])
+        index++ ;
+        setTimeout(showline,2000);
+      
+   
+    }
+
+}
+
+// function hacked(){
+//     setTimeout(() => {
+//       document.images[0].src = " "
+//     }, 1000);
+   
+//     }
